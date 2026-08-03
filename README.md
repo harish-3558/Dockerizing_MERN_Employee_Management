@@ -63,7 +63,7 @@ Make sure these are installed on your machine:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/harish-3558/Dockerizing_MERN_Employee_Management.git>
 cd MERN
 ```
 
@@ -133,7 +133,7 @@ Example JSON body:
 
 ```json
 {
-  "name": "John",
+  "name": "john",
   "department": "IT"
 }
 ```
