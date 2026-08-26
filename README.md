@@ -77,7 +77,7 @@ npm install
 Create a `.env` file inside the backend folder:
 
 ```env
-MONGO_URI=mongodb://localhost:27017/Mern
+MONGO_URI=your MONGO_URI
 ```
 
 Start the backend:
@@ -133,7 +133,7 @@ Example JSON body:
 
 ```json
 {
-  "name": "john",
+  "name": "charan",
   "department": "IT"
 }
 ```
