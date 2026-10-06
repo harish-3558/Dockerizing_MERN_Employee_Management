@@ -1,44 +1,42 @@
 :root {
   font-family: Inter, 'Segoe UI', sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #0f172a;
-  background: #f8fafc;
+  color: #18364b;
+  background: #eaf6fc;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html, body, #root {
-  margin: 0;
-  min-height: 100%;
+html,
+body,
+#root {
   width: 100%;
+  min-height: 100%;
+  margin: 0;
 }
 
 body {
+  min-width: 320px;
   min-height: 100vh;
-  background: #f8fafc;
-  color: #0f172a;
 }
 
-input, button, textarea, select {
+button,
+input,
+textarea,
+select {
   font: inherit;
 }
 
-input {
-  color: #0f172a;
-}
-
-button {
-  font: inherit;
-}
-
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
 }
-
